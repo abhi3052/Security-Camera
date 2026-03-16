@@ -1,0 +1,20 @@
+!SESSION 2026-03-16 02:30:58.908 -----------------------------------------------
+eclipse.buildId=Version 2.1.0
+java.version=21.0.9
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  E:\2.STM32_Workspace\2.Projects\Security_Camera_with_F411\.project
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 E:\2.STM32_Workspace\2.Projects\Security_Camera_with_F411\.project
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2026-03-16 02:31:14.634
+!MESSAGE Log4j2 initialized with config file E:\2.STM32_Workspace\2.Projects\Security_Camera_with_F411\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2026-03-16 02:31:22.370
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-03-16 02:32:43.355
+!MESSAGE Executed PowerShell command powershell.exe -Command "Get-CimInstance -ClassName Win32_SerialPort | Select-Object -ExpandProperty DeviceID":
+
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-03-16 02:32:43.356
+!MESSAGE port: 
