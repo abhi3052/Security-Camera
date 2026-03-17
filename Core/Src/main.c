@@ -23,6 +23,8 @@
 /* USER CODE BEGIN Includes */
 
 #include "ssd1306.h"
+#include "ssd1306_fonts.h"
+#include <stdio.h>
 
 /* USER CODE END Includes */
 
@@ -105,18 +107,12 @@ int main(void)
 
  /* USER CODE BEGIN 2 */
 
-  SSD1306_Init(&hi2c1);
+  //ssd1306_Fill(Black);
+  //ssd1306_DrawCircle(30, 30, 10, White);
+  //ssd1306_DrawCircle(90, 30, 15, White);
+  //ssd1306_DrawCircle(64, 32, 25, White);
+  //ssd1306_UpdateScreen();
 
-
-  SSD1306_Clear();
-
-  SSD1306_SetCursor(0,0);
-  SSD1306_WriteString("HELLO", Font5x7);
-
-  SSD1306_SetCursor(0,20);
-  SSD1306_WriteString("HELLO", Font5x7);
-
-  SSD1306_UpdateScreen();
 
   /* USER CODE END 2 */
 
